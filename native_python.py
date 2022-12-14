@@ -38,7 +38,7 @@ resource = ibm_boto3.resource("s3",
     endpoint_url=COS_ENDPOINT
 )
 
-target_bucket = "kochi1122"
+target_bucket = "***"
 
 modelerpy.installPackage("datetime")
 import datetime
