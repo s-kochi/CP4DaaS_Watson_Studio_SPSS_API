@@ -55,4 +55,3 @@ target_file = now.strftime('%Y%m%d_%H%M%S')+".csv"
 
 bucket = resource.Bucket(target_bucket)
 bucket.upload_file(src_file, target_file)
-# CP4DaaS_Watson_Studio_SPSS_API
