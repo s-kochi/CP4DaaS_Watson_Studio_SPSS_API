@@ -16,6 +16,7 @@ modelerpy.installPackage("ibm-cos-sdk")
 import ibm_boto3
 from ibm_botocore.client import Config
 
+#ICOSサービス情報の記入
 credencials={
   "apikey": "***",
   "endpoints": "***",
