@@ -36,7 +36,7 @@ resource = ibm_boto3.resource("s3",
 )
 
 #出力先ICOS_バケット指定
-target_bucket = "***"
+target_bucket = "****"
 
 #タイムスタンプ準備
 import datetime
